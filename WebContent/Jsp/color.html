@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas">Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(0, 0, 25, 25);
+ctx.fillStyle = "#FFF000";
+ctx.fillRect(50,0 , 25, 25);
+ctx.fillStyle = "Blue";
+ctx.fillRect(100, 0, 25, 25);
+ctx.fillStyle = "Green";
+ctx.fillRect(150, 0, 25, 25);
+ctx.fillStyle = "Grey";
+ctx.fillRect(200, 0, 25, 25);
+ctx.fillStyle = "Brown";
+ctx.fillRect(250, 0, 25, 25);
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(300, 0, 25, 25);
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(350, 0, 25, 25);
+
+
+
+</script>
+
+<p><strong>Note:</strong> The canvas tag is not supported in Internet 
+Explorer 8 and earlier versions.</p>
+<form action="/action_page.php">
+
+ <input type="text" name="" value=""style="width: 20px">&nbsp&nbsp&nbsp
+ <input type="text" name="" value=""style="width: 20px"> &nbsp&nbsp&nbsp<input type="text" name="" value=""style="width: 20px">&nbsp&nbsp&nbsp
+ <input type="text" name="" value=""style="width: 20px">&nbsp&nbsp&nbsp <input type="text" name="" value=""style="width: 20px">&nbsp&nbsp&nbsp
+ <input type="text" name="" value=""style="width: 20px">&nbsp&nbsp&nbsp <input type="text" name="" value=""style="width: 20px">&nbsp&nbsp&nbsp
+ 
+ <input type="text" name="" value=""style="width: 20px"><br><br><br>
+<center><input type="submit" value="Submit"></center>
+</form>
+
+<p>Click the "Submit" button and the form-data will be sent to a page on the server called "/action_page.php".</p>
+</body>
+</html>
